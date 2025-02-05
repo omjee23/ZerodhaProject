@@ -18,7 +18,6 @@ function HomePage() {
         <Education/>
         <OpenAccount/>
         <Footer/>
-        <h2>Homepage 2</h2>
         </>
      );
 }
