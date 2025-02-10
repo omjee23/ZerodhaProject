@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav
@@ -5,13 +7,13 @@ function Navbar() {
       style={{ backgroundColor: "#fff" }}
     >
       <div className="container p-2">
-        <a href="#" className="navbar-brand">
+        <Link to="/" className="navbar-brand">
           <img
             src="Media/images/logo.svg"
             alt="logo"
             style={{ width: "25%" }}
           />
-        </a>
+        </Link>
         
         <button
           className="navbar-toggler"
@@ -27,40 +29,49 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 style={{ marginLeft: "30px" }}
-                href="#"
+                to="/signup"
               >
                 Signup
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 style={{ marginLeft: "30px" }}
-                href="#"
+                to="/about"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 style={{ marginLeft: "30px" }}
-                href="#"
+                to="/product"
+              >
+                Products
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link active"
+                style={{ marginLeft: "30px" }}
+                to="/pricing"
               >
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 style={{ marginLeft: "30px" }}
-                href="#"
+                to="/support"
               >
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
