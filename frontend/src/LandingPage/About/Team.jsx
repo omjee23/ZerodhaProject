@@ -7,13 +7,13 @@ function Team() {
          People
         </h1>
       </div>
-      <div className="row p-5  mt-5 text-muted" style={{lineHeight: "1.9", fontSize: "17px"}}>
-        <div className="col-6 p-5 text-center">
-            <img src="Media/images/nithinKamath.jpg" alt="nitinKumar" style={{borderRadius: "100%" , width: "55%"}} />
-            <h4 className="mt-5">Nithin Kamath</h4>
-            <h6>Founder, CEO</h6>
+      <div className="row p-5  mt-5 text-muted"  style={{lineHeight: "1.9", fontSize: "17px"}}>
+        <div className="col-12 col-md-6 p-5 text-center">
+            <img src="Media/images/nithinKamath.jpg" alt="nitinKumar" style={{borderRadius: "100%" , width: "55%"}}  className="img-fluid"/>
+            <h4 className="mt-5 fs-4">Nithin Kamath</h4>
+            <h6 className="fs-6">Founder, CEO</h6>
         </div>
-        <div className="col-6 p-5">
+        <div className="col-12 col-md-6 p-5">
             <p>
             Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.
             </p>
